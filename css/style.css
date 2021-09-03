@@ -261,6 +261,11 @@ a {
   right: 0;
 }
 
+.bg__footer{
+  position: absolute;
+  bottom: 0;
+}
+
 /* block limited */
 .limited {
   margin-top: 10.5rem;
@@ -503,6 +508,18 @@ a {
   width: 18rem;
 }
 
+.footer__main-item__left p{
+  border-bottom: 0.1rem solid var(--text-footer-color);
+  margin-bottom: 2rem !important;
+  font-size: 1.2rem;
+  margin-bottom: 3.4rem;
+  margin-right: 1rem;
+  color: var(--text-footer-color);
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
 .footer__main-item__left .icon .fa-facebook-square{
   color: #0089fd;
 }
@@ -516,7 +533,7 @@ a {
   margin-bottom: 5rem;
 }
 
-.footer__main-item__left p,
+
 .footer__main-item__center p,
 .footer__main-item__right p {
   font-size: 1.4rem;
